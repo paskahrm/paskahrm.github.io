@@ -270,7 +270,15 @@ input, select, textarea {
 		margin-left: 45px;
 		font-size: 15px;
 	}
-
+	.mySlides {
+		display:none
+	}
+	.w3-left, .w3-right, .w3-badge {
+		cursor:pointer
+	}
+	.w3-badge {
+		height:16px;width:10px;padding:0
+	}
 	.marginpdf{
 		margin: 0;
 	}
@@ -1540,7 +1548,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			.title{
+				font-size: 10px;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2665,6 +2675,9 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+			.title{
+				font-size: 20px;
+			}
 
 			body, input, textarea, select {
 				font-size: 14pt;
