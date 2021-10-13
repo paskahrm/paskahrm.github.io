@@ -252,6 +252,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -261,6 +263,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 /* Kreasi sendiri */
 	
@@ -2199,7 +2202,7 @@ input, select, textarea {
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.55em;
+			font-size: 0.7em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
@@ -2237,7 +2240,7 @@ input, select, textarea {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 0.9em;
 				}
 
 					#nav ul li a span:before {
