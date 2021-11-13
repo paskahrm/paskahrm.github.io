@@ -92,7 +92,7 @@
 								<header>
 									<h2>Resume</h2>
 								</header>
-								<iframe class='pdf' src="pdf/Paskah Riverdi Manurung2.pdf#toolbar=0" width="70%" height="700px">
+								<iframe class='pdf' src="pdf/cv.pdf#toolbar=0" width="70%" height="700px">
 								</iframe>
 							</section>
 							
@@ -108,26 +108,17 @@
 							<!-- <h2>Below here is projects i have done to increase and hone my skills</h2> -->
 
 							<div class="row">
-								<!-- <div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div> -->
 								<div class="col-4 col-12-mobile">
+									<!-- <article class="item">
+										<h5>Predict Success of Restaurant</h5>
+										<img src="images/kaggle.png" alt="" width="50%" height="300px">
+										<p>
+											For this personal project me and my colleague did an Prediction and Analyzing what makes a restaurant can be considered successful based on the rating of each restaurant
+										</p>
+										<a href="https://www.kaggle.com/leonardoignatius/predict-success-of-restaurant-analysis-zomato/notebook">View on kaggle</a>
+									</article> -->
+									
 									<article class="item">
-										<!-- <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header> -->
 										<h5>Campaign Performance Project</h5>
 										<p>For this project, we were asked to assess the performance of campaigns with the data given. It is a Dataset consists of 2 years transaction report, which were then divided into 3 cities. We later gained some insights that we can obtained, by analyzing the Dataset using SQL</p>
 										<iframe class='pdf' src="pdf/1.pdf#toolbar=0" width="80%" height="500px">
@@ -216,20 +207,6 @@
 										</p>
 									</article>
 								</div>
-								<!-- <div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div> -->
 							</div>
 
 						</div>
@@ -241,44 +218,9 @@
 						<header>
 							<h2>Courses and Certificate</h2>
 						</header>
-						<!-- <div class="row">
-							<div class="col-4 col-12-mobile certifimg">
-								<article class="item">
-									<div class="desc">
-										<p>DataPath BootCamp</p>
-										<p class="description">Certification of Completion</p>
-									</div>
-									<img src="images/datapath.jpg" alt="">
-								</article>
-								<article class="item">
-									<div class="desc">
-										<p> <a href="https://www.sololearn.com/certificates/course/en/22907582/1161/landscape/png"> Python for DataScience from Sololearn</a></p>
-										</p>
-										<p class="description">Credential ID: 22907582-1161 <br>Issued Aug 2021, No Expiration Date</p>
-									</div>
-									<img src="/images/pytonsololearn.png" alt="">
-								</article>
-								<article class="item">
-									<div class="desc">
-										<p><a href="dicoding.com/certificates/RVZK1L7WQPD5">Belajar Dasar Visualisasi Data</a></p>
-										<p class="description">
-											Credential ID: RVZK1L7WQOD5 <br>Issued 12 July 2021, Expired 12 July 2024
-										</p>
-									</div>
-									<img src="/images/dicoding.png" alt="">
-								</article>
-								<article class="item">
-									<div class="desc">
-										<p><a href="https://academy.dqlab.id/certificate/pdf/DQLABINTP1RQKEUQ/NONTRACK">Python Fundamental for Data Science</a></p>
-										<p class="description">
-											Credential ID:DQLABINTP1RQKEUQ <br>Issued 6 March 2021, No Expiration Date
-										</p>
-									</div>
-									<img src="/images/dqlab.png" alt="">
-								</article>
-							</div>
-						</div> -->
 						<div class="w3-content w3-display-container" style="max-width: 800px;">
+							<iframe class='mySlides' src="pdf/Data,Data Coursera.pdf#toolbar=0" width="100%" height="600px">
+							</iframe>
 							<img class="mySlides" src="images/datapath.jpg" alt="" style="width: 100%;">
 							<img class="mySlides" src="images/pytonsololearn.png" alt="" style="width: 100%;">
 							<img class="mySlides" src="images/dicoding.png" alt="" style="width: 100%;">
@@ -286,6 +228,7 @@
 							<div class="w3-center w3-container w3-section w3-large w3-text-blue-grey we-display-bottomiddle" style="width: 100%;">
 								<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
 								<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
 								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
 								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
@@ -362,6 +305,21 @@
 					dots[slideIndex-1].className += " w3-white";
 				}
 			</script>
-
+			<script>
+				var myIndex = 0;
+				carousel();
+				
+				function carousel() {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides2");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+				</script>
 	</body>
 </html>
